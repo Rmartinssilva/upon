@@ -832,12 +832,14 @@ width: 100%;
         }
 
         #service .box{
-            margin-top: 60px;
+            margin-top: -60px;
         }
 
         #menu .container{
-            margin-top: 40px;
+            margin-top: -60px;
         }
+
+    
 }
 
 
