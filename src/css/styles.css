@@ -811,8 +811,8 @@ ul{
 
 @media (max-width: 375px) and (height: 667px) {
 
-    body {
-  touch-action: none;
+body {
+touch-action: manipulation;
 }
     
     .container {
