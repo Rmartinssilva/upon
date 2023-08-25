@@ -820,10 +820,10 @@ ul{
 @media (max-width: 375px) and (height: 667px) {
     
     .container {
-      width: 80%;
+      width: 100%;
     }
 
-    body{
+    body, html{
         overflow-x: hidden; 
 }
 
