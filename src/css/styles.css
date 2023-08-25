@@ -825,11 +825,11 @@ height: 100%
 }
 
 .logo{
-            width: 60%;
-        }
-
-    #footer .contanier{
-       margin-left: 160;
+width: 60%;
+}
+    
+#footer .center{
+       margin-right: 160;
        text-align: left;
 }
 }
