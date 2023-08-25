@@ -773,14 +773,6 @@ ul{
         font-size: 18px;
     }
 
-    footer .container {
-        width: 100%;
-        max-width: 1330px; 
-        margin-left: 0;
-    }
-    
-    }
-
  @media screen and (max-width:549px){
 
         .container {
@@ -821,6 +813,11 @@ ul{
     
     .container {
       width: 100%;
+
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+    
     }
 
     body, html{
