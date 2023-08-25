@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Família Martins</title>
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  </head>
+  <body>
+    <!--Home-->
+
+    <header class="max-width bg" id="home">
+        <div class="container">
+            <div class="menu">
+                <div class="logo"></div>
+                <div class="desktop-menu">
+                   <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#upon">Sobre</a></li>
+                    <li><a href="#service">Serviços</a></li>
+                    <li><a href="#menu">Cardápio</a></li> 
+                    <li><a href="#contatos">Contatos</a></li> 
+                    <li><a href="#mapa">Localização</a></li>
+                    </ul>
+                </div>
+
+                <div class="mobile-menu" onclick="myFuction()">
+                    <i class=" color-vermelho fa-solid fa-bars"></i>
+                    
+                    <ul id="myLinks">
+                     <li><a href="#home">Home</a></li>
+                     <li><a href="#upon">Sobre</a></li>
+                     <li><a href="#service">Serviços</a></li>
+                     <li><a href="#menu">Cardápio</a></li> 
+                     <li><a href="#contatos">Contatos</a></li> 
+                     <li><a href="#mapa">Localização</a></li>
+                    </ul>
+                 </div>
+            
+            </div>
+            
+            <div class="call">
+                <div class="left">
+                    <img src="./src/imagens/foto principal.png">
+                </div>
+                <div class="right">
+                    <h1 class="color-vermelho text-gd">Restaurante</h1>
+                    <h1 class="color-vermelho text-gd">Família Martins</h1>
+                    <h2 class="color-branco text-md">Experimente a melhor comida da região</h2>
+                    <p class="color-vermelho text-pq">O melhor atendimento!</p>
+                    <br>
+                        <button><a href="#menu">Ver menu</a></button>
+                </div>
+            </div>
+        </div>
+        <button id="return">^</button>
+    </header>
+
+    <!--Upon-->
+
+    <section class="max-width bg" id="upon">
+        <div class="container">
+            <div class="call">
+                <div class="left">
+                   <span  class=" text-md color-branco">Sobre</span>
+                   <span  class=" text-gd color-vermelho">Restaurante Família Martins</span>
+                    <h2 class="color-branco">Quem diz que não se compra felicidade ainda não viu nosso cardápio</h2>
+                    <p class=" text-pq color-vermelho">Nascemos em 2013 para conectar conhecimentos, e revolucionar o universo da alimentação por uma vida mais prática e prazerosa. Com fome de crescimento, e de alavancar o universo feminino na área de tecnologia do programa Elas na_Tech.</p>
+                    <button class="texto"><a href="#service">Saiba Mais</a></button>
+                </div>
+                <div class="right">
+                    <div class="piscar">
+                    <img src="./src/imagens/logo.png">
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!--Service-->
+
+     <section class="max-width bg" id="service">
+        <div class="container">
+            <div class="content">
+                <div class="titulo">
+                    <span class="text-gd color-vermelho">Serviços</span>
+                    <br>
+                    <h2 class="text-md color-branco">Ofertas</h2>
+                </div>
+                <div class="down">
+                    <div class="box">
+                        <i class="fa-solid fa-bell-concierge" style="color: #ffffff;"></i>
+                        <h2 class="color-branco">Melhor comida</h2>
+                        <p class="color-vermelho">O melhor tempero caseiro</p>
+                    </div>
+
+                    <div class="box">
+                        <i class="fa-solid fa-bag-shopping" style="color: #ffffff;"></i>
+                        <h2 class="color-branco">Clube Martins</h2>
+                        <p class="color-vermelho">Ofertas e descontos exclusivos</p>
+                    </div>
+
+                    <div class="box">
+                        <i class="fa-solid fa-motorcycle" style="color: #ffffff;"></i>
+                        <h2 class="color-branco">Entrega rápida</h2>
+                        <p class="color-vermelho">Acompanhe seu pedido</p>
+                    </div> 
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!--Menu-->
+
+     <section class="max-width bg" id="menu">
+        <div class="container">
+            <div class="content">
+                <div class="titulo">
+                    <span class="text-gd">Cardápio</span>
+                </div>
+                <div class="down">
+                    <div class="box">
+                        <img src="./src/imagens/macarrão.jpg">
+                        <h4 class="color-branco">Macarrão Penne em molho de tomate com frango e tomate</h4>
+                        <p><b>R$19,99</b></p>
+                    </div>
+                    <div class="box">
+                    <img src="./src/imagens/Kebab.jpg"> 
+                    <h4 class="color-branco">Kebab embrulhado beyti coberto com molho de tomate, servido com tomate e pimenta</h4>
+                    <p><b>R$24,99</b></p>
+                    <b class="color-branco"><u>Promoção Exclusiva<br>Clube Martins</u></b>
+                    <p><b>R$19,99</b></p> 
+                </div>
+                    <div class="box">
+                    <img src="./src/imagens/frango grelhado.png">
+                    <h4 class="color-branco">Arroz com coxa de frango grelhado picante</h4>
+                    <p><b>R$22,99</b></p>
+                </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!--Contatos-->
+
+     <section class="max-width bg" id="contatos">
+        <div class="container"> 
+            <div class="call">
+                <div class="center">
+                    <span class="text-gd color-vermelho">Contatos</span>
+                    <h2 class="text-md color-branco">Tel: 55 21 3984-9000</h2>
+                    <p class="text-md color-vermelho">Social</p>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <div class="center">
+                        <img src="./src/imagens/imagem1.png"><p class="text-pq color-vermelho">Caso haja alguma dúvida, entre em contato conosco.</p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+      <!--Mapa-->
+     <section class="max-width bg" id="mapa">
+      <div class="container">
+        <div class="center">
+            <p class="color-branco">Localização</p>
+            <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.0670408292676!2d-43.46773262469399!3d-22.762893179356663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9967f809a644a3%3A0x9c3ec3d5526e1803!2sShopping%20Nova%20Igua%C3%A7u!5e0!3m2!1spt-BR!2sbr!4v1691066899806!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+     </section>
+
+     <!--Rodapé-->
+     
+    <footer>
+    <div class="container">
+        <div class="center">
+            <h2>Referências</h2>
+            
+            <li>Disponível em:<a href="https://br.freepik.com/" target="_blank" rel="noopener noreferrer">Freepik</a>.<p></p></li>
+                
+                <li>Disponível em:<a href="https://www.flaticon.com/" target="_blank" rel="noopener noreferrer">Flation</a>.</p></li>
+
+                <li>Disponível em:<a href="https://goo.gl/maps/GRcFaQrnue4X3d688" target="_blank" rel="noopener noreferrer">Google Maps</a>.</p></li>
+                
+            <ul>Copyright2023<span class="color color-vermelho">FRONT</span> AllRightsReserved</ul>
+        </div>
+    </div>
+        </footer>
+        <script>
+
+        //Botão return
+
+        var btn = document.querySelector("#return");
+
+        btn.addEventListener("click", function(){
+            window.scrollTo(0,0);
+        })
+
+        //Menu Mobile
+
+        function myFuction(){
+            var x = document.getElementById("myLinks")
+            if (x.style.display === "block"){
+                x.style.display = "none";
+            }else{
+                x.style.display = "block"
+            }
+        }
+
+    </script>
+</body>
+</html>
