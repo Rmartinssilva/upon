@@ -825,7 +825,7 @@ height: 100%
 }
 
 .logo{
-            width: 40%;
+            width: 60%;
         }
 
         #service .box{
@@ -836,7 +836,7 @@ height: 100%
             margin-top: -60px;
         }
     #footer .contanier{
-        margin-left: -160px;
+        margin-left: 160px;
 
     
 }
