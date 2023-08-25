@@ -828,6 +828,20 @@ ul{
         
     }
 }
+
+.secao {
+  width: 100%;
+  padding: 20px;
+  /* outros estilos */
+}
+
+/* Ajuste para telas menores */
+@media screen and (max-width: 768px) {
+  .secao {
+    padding: 10px;
+    /* outros estilos para telas menores */
+  }
+}
     
     
 
