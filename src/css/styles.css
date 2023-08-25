@@ -247,13 +247,7 @@ button:hover{
 
 /*Button return*/
 
-#return{
-    position: fixed;
-    bottom: 2px;
-    right: 16px;
-    padding: 5px 10px;
-    background:#ff0000;
-}
+
 
 /*Scrollbar*/
 
