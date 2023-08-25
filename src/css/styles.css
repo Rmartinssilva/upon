@@ -819,6 +819,8 @@ ul{
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+
+margin-left: 0;
     
     }
 
@@ -838,21 +840,6 @@ ul{
 }
 
 
-body::-webkit-scrollbar {
-  width: 10px;
-}
-
-body::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-body::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-body::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
 
 
 
