@@ -810,38 +810,49 @@ ul{
         }
 
 }
-
-
-   
-
+    
+     
 @media (max-width: 375px) and (height: 667px) {
 
-
     
-  .container {
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  margin-left: 0;
-touch-action: manipulation;
-    
-    }
-
-  body, html{
-    
-      touch-action: manipulation;
-      
-      margin: 0;
-      padding: 0;
+body {
+  overflow-x: hidden;
 }
-  
-
-.content {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+    
+.container {
+width: 100%;
 }
+    
+#upon .container{
+    margin-top: 30px;
+}
+
+.logo{
+            width: 40%;
+        }
+
+        #service .box{
+            margin-top: 20px;
+        }
+
+        #menu .container{
+            margin-top: 40px;
+        }
+}
+
+
+
+
+
+    
+    
+
+
+     
+    
+
+
+
 
 
 
