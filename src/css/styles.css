@@ -811,11 +811,9 @@ ul{
 
 @media (max-width: 375px) and (height: 667px) {
 
-body {
-touch-action: manipulation;
-}
+
     
-    .container {
+  .container {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
@@ -824,7 +822,8 @@ touch-action: manipulation;
     }
 
   body, html{
-        overflow-x: hidden; 
+      overflow-x: hidden;
+      touch-action: manipulation;
 }
   body {
   font-family: Arial, sans-serif;
