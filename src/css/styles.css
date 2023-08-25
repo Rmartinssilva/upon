@@ -11,6 +11,9 @@
 
 html, body{
     height: 100%;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    
 
 }
 
@@ -819,15 +822,14 @@ ul{
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-
-margin-left: 0;
+  margin-left: 0;
     
     }
 
   body, html{
-      overflow-x: hidden;
+    
       touch-action: manipulation;
-      overflow-y: scroll;
+      
       margin: 0;
       padding: 0;
 }
