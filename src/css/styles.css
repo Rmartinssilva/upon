@@ -12,9 +12,6 @@
 html, body{
     height: 100%;
       overflow-x: hidden;
-      
-    
-
 }
 
 .max-width{
@@ -819,7 +816,8 @@ body {
 }
     
 .container {
-width: 60%;
+width: 90%;
+height: 100%
 }
     
 #upon .container{
@@ -837,6 +835,8 @@ width: 60%;
         #menu .container{
             margin-top: -60px;
         }
+    #footer contanier{
+        margin-left: -50px;
 
     
 }
