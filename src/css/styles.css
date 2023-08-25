@@ -802,7 +802,7 @@ ul{
         }
 
         .logo{
-            width: 0%;
+            width: 60%;
         }
 
 }
@@ -828,17 +828,9 @@ height: 100%
             width: 60%;
         }
 
-        #service .box{
-            margin-top: -60px;
-        }
-
-        #menu .container{
-            margin-top: -60px;
-        }
     #footer .contanier{
-        margin-left: 160px;
-
-    
+       margin-left: 160;
+       text-align: left;
 }
 }
 
