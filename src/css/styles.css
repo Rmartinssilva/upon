@@ -731,12 +731,20 @@ ul{
         overflow-x: hidden;
     }
 
+    body.no-scrollbar {
+        overflow-x: hidden;
+        margin-right: calc(100% + 20px);
+      }
+
     .container {
+    max-width: 60%;
     margin-right: 25px;
+    margin-right: calc(29% + 20px);
     }
 
-    .mobile-menu{
-        margin-left: 8px;
+    .mobile-menu i{
+        margin-right: 60px;
+        margin-top: 10px;
     }
     
     #upon .left p{
@@ -789,19 +797,30 @@ ul{
     .mobile-menu i{
         margin-right: 10px;
     }
+
+    body.no-scrollbar {
+        overflow-x: hidden;
+        width: calc(100% + 15px);
+      }
 }
 
 @media (max-width: 320px) and (height:568px) {
    
+    body{
+        overflow-x: hidden;
+    }
+
+    body.no-scrollbar {
+        overflow-x: hidden;
+        margin-right: calc(100% + 20px);
+      }
+
     .container {
-      padding: 10px;
-      max-width: 55%;
-      margin-left: 0;
+    max-width: 80%;
+    margin-right: 25px;
+    margin-right: calc(100% + 20px);
     }
-    
-    .mobile-menu i{
-        margin-right: 10px;
-    }
+
 }
 
 
