@@ -814,6 +814,14 @@ ul{
 
 }
 
+@media (max-width: 375px) and (height: 667px) {
+    
+    .container {
+      width: 80%;
+
+    }
+}
+
 
 
     
