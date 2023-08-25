@@ -810,25 +810,27 @@ ul{
    
 
 @media (max-width: 375px) and (height: 667px) {
+
+    body {
+  touch-action: none;
+}
     
     .container {
-      width: 100%;
-
+  width: 100%;
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
     
     }
 
-    body, html{
+  body, html{
         overflow-x: hidden; 
 }
-
-    body {
+  body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  overflow-y: scroll; /* Adiciona uma barra de rolagem vertical */
+  overflow-y: scroll; 
 }
 
 .content {
@@ -837,7 +839,7 @@ ul{
   padding: 20px;
 }
 
-/* Estilize a barra de rolagem como desejado */
+
 body::-webkit-scrollbar {
   width: 10px;
 }
@@ -854,14 +856,6 @@ body::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
 
-
-
-
-
-Regenerate
-
-
-}
 
 
 
