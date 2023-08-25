@@ -719,7 +719,6 @@ ul{
             font-size: 16px;
         }    
 }
-
 @media screen and (max-width:648px){
 
     .logo{
@@ -734,15 +733,20 @@ ul{
     
     .container {
     max-width: 60%;
-    margin-right: 25px;
-    margin-right: calc(29% + 20px);
+    
     }
 
     .mobile-menu i{
         
         margin-top: 10px;
     }
-    
+
+    .mobile-menu{
+        width: 70%;
+        margin-left: -40px;
+        
+    }
+
     #upon .left p{
     font-size: 18px;
     width: 98%;
@@ -783,72 +787,43 @@ ul{
     
     }
 
+    @media screen and (max-width:549px){
 
-@media (max-width: 375px) and (height: 667px) {
-   
-    .container {
-      padding: 10px;
-      max-width: 55%;
-      margin-left: 0;
-    }
-    
-    .mobile-menu i{
-    ;
-    }
+        .container {
+            margin-left: 50px ;
+            
+        }
 
-    body.no-scrollbar {
-        overflow-x: hidden;
-        width: calc(100% + 15px);
-      }
-
-      button#return {
-        position: fixed;
-        bottom: 20px; 
-        right: 20px; 
-        margin: 0;
-        padding: 10px;
-      }
-}
-
-@media (max-width: 320px) and (height:568px) {
-
-   
-    .container {
-
-    max-width: 50%;
-    margin-right: 10px;
-    margin-right: calc(46% + 20px);
+        .mobile-menu{
+            width: 70%;
+            margin-left: 10px;
+            
+        }
 
     }
 
-    footer .container {
-        width: 100%;
-        max-width: 1330px; 
-        margin-left: 0;
-        
-    }
-    #return{
-  padding-left: -5px; 
-}
+@media screen and (max-width: 412px){
+
+        .container {
+        width: 39%;
+            
+        }
+
+        .mobile-menu{
+            width: 70%;
+            margin-left: -10px;
+        }
+
+        .logo{
+            width: 0%;
+        }
+
 }
 
 
 
     
     
-    
-
-
-     
-    
-
-
-
-
-
-    
-
-
 
 
 
