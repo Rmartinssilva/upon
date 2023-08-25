@@ -723,23 +723,20 @@ ul{
     body{
         overflow-x: hidden;
     }
-
     
     .container {
-    max-width: 80%;
-    margin-left: 0;
+    max-width: 60%;
     
     }
 
     .mobile-menu i{
         
-        margin-top: 10px
+        margin-top: 10px;
     }
 
     .mobile-menu{
         width: 70%;
-        margen left: -20px;
-        
+        margin-left: -40px;
         
     }
 
@@ -783,6 +780,39 @@ ul{
     
     }
 
+    @media screen and (max-width:549px){
+
+        .container {
+            margin-left: 50px ;
+            
+        }
+
+        .mobile-menu{
+            width: 70%;
+            margin-left: 10px;
+            
+        }
+
+    }
+
+@media screen and (max-width: 412px){
+
+        .container {
+        width: 39%;
+            
+        }
+
+        .mobile-menu{
+            width: 70%;
+            margin-left: -10px;
+        }
+
+        .logo{
+            width: 0%;
+        }
+
+}
+
 @media (max-width: 375px) and (height: 667px) {
     
     .container {
@@ -791,4 +821,22 @@ ul{
 }
 
 
-   
+
+
+
+    
+    
+
+
+     
+    
+
+
+
+
+
+    
+
+
+
+
