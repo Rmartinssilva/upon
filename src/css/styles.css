@@ -783,8 +783,10 @@ ul{
         width: 100%;
         max-width: 1330px; 
         margin-left: 0;
-    }   
-}
+    }
+    
+    }
+
 
 @media (max-width: 375px) and (height: 667px) {
    
@@ -802,32 +804,41 @@ ul{
         overflow-x: hidden;
         width: calc(100% + 15px);
       }
+
+      button#return {
+        position: fixed;
+        bottom: 20px; 
+        right: 20px; 
+        margin: 0;
+        padding: 10px;
+      }
 }
 
 @media (max-width: 320px) and (height:568px) {
-   
-    body{
-        overflow-x: hidden;
+    .container {
+    max-width: 90%;
+    margin-right: 100px;
+    margin-right: calc(45% + 20px);
+    }
+
+    button#return {
+        position: fixed;
+        bottom: 20px; 
+        right: 45px; 
+        margin: 0;
+        padding: 10;
+      }
+
+      .mobile-menu i{
+        margin-right: 20px;
     }
 
     body.no-scrollbar {
         overflow-x: hidden;
-        margin-right: calc(100% + 20px);
+        width: calc(100% + 15px);
       }
 
-    .container {
-    max-width: 80%;
-    margin-right: 25px;
-    margin-right: calc(100% + 20px);
-    }
-
-}
-
-
-
-
     
-
-
-
+}
+    
 
